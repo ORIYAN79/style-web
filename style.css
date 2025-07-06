@@ -142,13 +142,14 @@ tr, th{
     padding: 15px;
     text-align: left;
     border: 2px solid #b74b4b;
-    color: white;
+    color: black;
     font-size: 25px;
     box-sizing: content-box;
     
 }
 th:hover{
     background-color: blue;
+    color: white;
 
 }
 .Home_2{
@@ -173,10 +174,30 @@ img{
     border-radius: 5%;
 }
 td{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: 600;
     font-family:sans-serif;
     line-height: 26px;
     border-bottom: 1px solid #b74b4b;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+.tab{
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #b74b4b;
+    text-align: center;
+}
+.tab h1{
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+    color: blueviolet;
 }
